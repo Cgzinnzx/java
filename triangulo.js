@@ -7,7 +7,7 @@ form.addEventListener ("submit",(e) =>{
 
     const LadoA = Number(form.inLadoA.value) 
     const LadoB = Number(form.inLadoB.value)
-    const LadoC = NUmber(form.inLadoC.value)
+    const LadoC = Number(form.inLadoC.value)
 
     if((LadoA > LadoB > LadoC) || (LadoB > LadoA + LadoC) || (LadoC > LadoA + LadoB)){
         alert("Essas medidas não podem formar um triângulo. Um dos lados não pode ser maior que a soma dos outros dois.")
